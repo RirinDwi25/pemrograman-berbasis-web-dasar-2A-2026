@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Collection</title>
+
+    <style>
+        body{
+            font-family: 'Times New Roman', Times, serif;
+            background:#e3f2fd;
+            margin:0;
+        }
+
+        header{
+            background:#0d47a1;
+        }
+
+        .container{ /*navbar*/
+            display:flex;
+            justify-content:flex-end;
+            align-items:center;
+            width:100%;
+            padding:15px 20px;
+            box-sizing:border-box;
+        }
+
+        nav ul{
+            display:flex;
+            list-style:none;
+            gap:20px;
+            margin:0;
+            padding:0;
+        }
+
+        nav a{
+            text-decoration:none;
+            color:white;
+            font-weight:bold;
+        }
+
+        nav a:hover{
+            text-decoration:underline;
+        }
+
+        .container-2{
+            width:96%;
+            margin:20px auto;
+            background:white;
+            padding:25px;
+            border-radius:10px;
+            box-shadow:0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        h1{
+            text-align:center;
+            color:#0d47a1;
+            text-decoration:underline;
+        }
+
+        h2{
+            color:#1976d2;
+        }
+
+        /* TABEL */
+        table{
+            width:100%;
+            border-collapse:collapse;
+            margin-bottom:25px;
+        }
+
+        td{
+            border:1px solid #90caf9;
+            padding:12px;
+        }
+
+        tr:nth-child(even){ /*biar warnanya selang seling*/
+            background:#f1f8ff;
+        }
+
+        tr:hover{
+            background:#bbdefb;
+        }
+
+        img{ /*melengkung*/
+            display:block;
+            margin:auto;
+            border-radius:8px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="pertama.html">Curriculum Vitae</a></li>
+                    <li><a href="kedua.html">College Experience</a></li>
+                    <li><a href="ketiga.html">Book Collection</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="container-2">
+
+        <h1>Book Collection</h1>
+
+        <h2>Daftar Buku</h2>
+
+        <table>
+            <tr>
+                <td rowspan="6"><img src="bm.png" width="120"></td> 
+                <td>Nama Buku</td>
+                <td>Bumi Manusia</td>
+            </tr>
+            <tr>
+                <td>Penulis</td>
+                <td>Pramoedya Ananta Toer</td>
+            </tr>
+            <tr>
+                <td>Penerbit</td>
+                <td>Hasta Mitra</td>
+            </tr>
+            <tr>
+                <td>Tahun Terbit</td>
+                <td>1980</td>
+            </tr>
+            <tr>
+                <td>Kutipan</td>
+                <td>"Seorang terpelajar harus sudah berbuat adil sejak dalam pikiran."</td>
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+                <td rowspan="6"><img src="lb.png" width="120"></td>
+                <td>Nama Buku</td>
+                <td>Laut Bercerita</td>
+            </tr>
+            <tr>
+                <td>Penulis</td>
+                <td>Leila S. Chudori</td>
+            </tr>
+            <tr>
+                <td>Penerbit</td>
+                <td>Kepustakaan Populer Gramedia</td>
+            </tr>
+            <tr>
+                <td>Tahun Terbit</td>
+                <td>2017</td>
+            </tr>
+            <tr>
+                <td>Kutipan</td>
+                <td>"Kami adalah orang-orang yang tidak bisa diam melihat ketidakadilan."</td>
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+                <td rowspan="6"><img src="ay.png" width="120"></td>
+                <td>Nama Buku</td>
+                <td>Ayah, Ini Arahnya ke Mana, Ya?</td>
+            </tr>
+            <tr>
+                <td>Penulis</td>
+                <td>Sabda Armandio</td>
+            </tr>
+            <tr>
+                <td>Penerbit</td>
+                <td>GagasMedia</td>
+            </tr>
+            <tr>
+                <td>Tahun Terbit</td>
+                <td>2018</td>
+            </tr>
+            <tr>
+                <td>Kutipan</td>
+                <td>"Hidup sering membawa kita ke arah yang tidak pernah kita rencanakan."</td>
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+                <td rowspan="6"><img src="sd.png" width="120"></td>
+                <td>Nama Buku</td>
+                <td>Sejarah Dunia yang Disembunyikan</td>
+            </tr>
+            <tr>
+                <td>Penulis</td>
+                <td>Jonathan Black</td>
+            </tr>
+            <tr>
+                <td>Penerbit</td>
+                <td>Elex Media Komputindo</td>
+            </tr>
+            <tr>
+                <td>Tahun Terbit</td>
+                <td>2009</td>
+            </tr>
+            <tr>
+                <td>Kutipan</td>
+                <td>"Sejarah sering ditulis oleh mereka yang memegang kekuasaan."</td>
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+                <td rowspan="6"><img src="ma.png" width="120"></td>
+                <td>Nama Buku</td>
+                <td>Semangkuk Mie Ayam Sebelum Mati</td>
+            </tr>
+            <tr>
+                <td>Penulis</td>
+                <td>Brian Khrisna</td>
+            </tr>
+            <tr>
+                <td>Penerbit</td>
+                <td>Mediakita</td>
+            </tr>
+            <tr>
+                <td>Tahun Terbit</td>
+                <td>2021</td>
+            </tr>
+            <tr>
+                <td>Kutipan</td>
+                <td>"Kadang kebahagiaan sederhana cukup ditemukan dalam semangkuk mie ayam."</td>
+            </tr>
+        </table>
+
+    </section>
+
+</body>
+</html>
